@@ -1,14 +1,14 @@
 <div align="center">
   <img src="assets/hero-banner.svg" alt="HealthGuard Clinical AI Governance" width="100%" />
   <br/><br/>
-  [![CI](https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml)
-  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![Pytest](https://img.shields.io/badge/Pytest-34%2F34%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
-  ![Fairness & SHAP](https://img.shields.io/badge/Audit-Intersectional%20FNR%20%2B%20TreeSHAP-0D9488?style=flat-square)
-  ![Compliance](https://img.shields.io/badge/Regulation-EU%20AI%20Act%20Annex%20III%20%7C%20GDPR%20%7C%20MITRE%20ATLAS-2563EB?style=flat-square)
-  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
-
-  <br/>
+  <p>
+    <a href="https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml"><img src="https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Pytest-34%2F34%20Passing-16A34A?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="Pytest" />
+    <img src="https://img.shields.io/badge/Audit-Intersectional%20FNR%20%2B%20TreeSHAP-0D9488?style=flat-square" alt="Fairness &amp; SHAP" />
+    <img src="https://img.shields.io/badge/Regulation-EU%20AI%20Act%20Annex%20III%20%7C%20GDPR%20%7C%20MITRE%20ATLAS-2563EB?style=flat-square" alt="Compliance" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-475569?style=flat-square" alt="License" /></a>
+  </p>
   <img src="assets/live-demo.svg" alt="Live Execution Trace" width="96%" />
 </div>
 
