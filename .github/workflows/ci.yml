@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Fairness, TreeSHAP & KRI Audit Suite (34 Tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install scientific & audit dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scikit-learn==1.7.0 pandas==2.2.3 numpy==1.26.4 joblib==1.4.2 shap==0.46.0 openpyxl==3.1.5 pytest==8.3.5
+      - name: Run 34-test governance & fairness suite
+        env:
+          PYTHONPATH: .
+        run: pytest lab/tests/ -v
