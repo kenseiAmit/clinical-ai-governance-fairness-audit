@@ -1,5 +1,6 @@
 # HealthGuard AI GRC: Clinical ML Fairness Audit, TreeSHAP Attribution & EU AI Act Portfolio
 
+[![CI](https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/clinical-ai-governance-fairness-audit/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-34%2F34%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
 ![Fairness & SHAP](https://img.shields.io/badge/Audit-Intersectional%20FNR%20%2B%20TreeSHAP-0D9488?style=flat-square)
