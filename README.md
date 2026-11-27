@@ -14,6 +14,8 @@
 
 ---
 
+![HealthGuard Clinical AI — Fairness, TreeSHAP & EU AI Act Blueprint](docs/images/architecture_blueprint.png)
+
 End-to-end AI Security Governance, Risk, and Compliance (GRC) technical audit and 8-deliverable regulatory portfolio for **HealthGuard**, a clinical Type-2 diabetes triage classifier (`N = 3,000` held-out patients, operating threshold `0.26`). Combines **12-cell intersectional subgroup fairness auditing**, **TreeSHAP socioeconomic proxy proof**, **counterfactual model retraining**, **Key Risk Indicator (KRI) drift bands**, **MITRE ATLAS adversarial ML threat modeling**, **GDPR/CPRA Schrems II transfer impact assessment**, and **EU AI Act Annex III high-risk conformity**.
 
 ---
